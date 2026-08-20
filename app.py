@@ -22,9 +22,7 @@ except:
 st.subheader("Instrucciones de uso:")
 st.write('Esta herramienta está diseñada como un asistente de comunicación accesibles.
 Escribe en el cuadro de abajo el texto o mensaje que deseas expresar y haz clic en el botón 
-para generarlo en voz alta.'
-        
-        )
+para generarlo en voz alta.')
            
 st.markdown("Escribe tu mensaje a continuación:")
 text = st.text_area("Ingrese el texto a escuchar:")
