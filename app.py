@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Asistente de voz para comunicación")
-image = Image.open('gato_raton.png')
+image = Image.open('asistente.png')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
