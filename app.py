@@ -7,7 +7,7 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Asistente para mudos")
+st.title("Asistente de voz para comunicación")
 image = Image.open('gato_raton.png')
 st.image(image, width=350)
 with st.sidebar:
