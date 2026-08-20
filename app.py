@@ -11,7 +11,7 @@ st.title("Asistente de voz para comunicación")
 image = Image.open('asistente.png')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.subheader("Escribe y/o selecciona texto para ser escuchado.")
 
 
 try:
@@ -19,18 +19,15 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
+st.subheader("Instrucciones de uso:")
+st.write('Esta herramienta está diseñada como un asistente de comunicación accesibles.
+Escribe en el cuadro de abajo el texto o mensaje que deseas expresar y haz clic en el botón 
+para generarlo en voz alta.'
         
         )
            
-st.markdown(f"Quieres escucharlo?, copia el texto")
-text = st.text_area("Ingrese El texto a escuchar.")
+st.markdown("Escribe tu mensaje a continuación:")
+text = st.text_area("Ingrese el texto a escuchar:")
 
 tld='com'
 option_lang = st.selectbox(
